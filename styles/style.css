@@ -167,6 +167,7 @@ body {
 }
 
 .cars-filter ul li {
+  box-sizing: border-box;
   width: 127px;
   padding: 16px;
   text-align: center;

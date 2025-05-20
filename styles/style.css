@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #212121;
   font-family: 'Helvetica', sans-serif;
@@ -157,6 +161,9 @@ body {
 
 .cars-filter {
   margin-right: 77px;
+  align-self: flex-start;
+  position: sticky;
+  top: 20px;
 }
 
 .cars-filter ul {
